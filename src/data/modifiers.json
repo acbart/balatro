@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "mod_001",
+    "name": "Arcana Sigil 001",
+    "description": "Retrigger Face Cards tuned for combo chain #1.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_002",
+    "name": "Arcana Sigil 002",
+    "description": "Mult Per Repeated Suit tuned for combo chain #2.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_003",
+    "name": "Arcana Sigil 003",
+    "description": "Chips Per Unused Discard tuned for combo chain #3.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_004",
+    "name": "Arcana Sigil 004",
+    "description": "Duplicate Score Effects tuned for combo chain #4.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_005",
+    "name": "Arcana Sigil 005",
+    "description": "Probability Shift tuned for combo chain #5.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_006",
+    "name": "Arcana Sigil 006",
+    "description": "Economy Bonus tuned for combo chain #6.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_007",
+    "name": "Arcana Sigil 007",
+    "description": "Flat Chip Bonus tuned for combo chain #7.",
+    "rarity": "Rare",
+    "trigger": "on_score",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_008",
+    "name": "Arcana Sigil 008",
+    "description": "Flat Mult Bonus tuned for combo chain #8.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_009",
+    "name": "Arcana Sigil 009",
+    "description": "Streak Mult Bonus tuned for combo chain #9.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_010",
+    "name": "Arcana Sigil 010",
+    "description": "Hand Type Bonus tuned for combo chain #10.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 130,
+      "handName": "Three of a Kind"
+    }
+  },
+  {
+    "id": "mod_011",
+    "name": "Arcana Sigil 011",
+    "description": "Retrigger Face Cards tuned for combo chain #11.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_012",
+    "name": "Arcana Sigil 012",
+    "description": "Mult Per Repeated Suit tuned for combo chain #12.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_013",
+    "name": "Arcana Sigil 013",
+    "description": "Chips Per Unused Discard tuned for combo chain #13.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_014",
+    "name": "Arcana Sigil 014",
+    "description": "Duplicate Score Effects tuned for combo chain #14.",
+    "rarity": "Rare",
+    "trigger": "on_draw",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_015",
+    "name": "Arcana Sigil 015",
+    "description": "Probability Shift tuned for combo chain #15.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_016",
+    "name": "Arcana Sigil 016",
+    "description": "Economy Bonus tuned for combo chain #16.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_017",
+    "name": "Arcana Sigil 017",
+    "description": "Flat Chip Bonus tuned for combo chain #17.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_018",
+    "name": "Arcana Sigil 018",
+    "description": "Flat Mult Bonus tuned for combo chain #18.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_019",
+    "name": "Arcana Sigil 019",
+    "description": "Streak Mult Bonus tuned for combo chain #19.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_020",
+    "name": "Arcana Sigil 020",
+    "description": "Hand Type Bonus tuned for combo chain #20.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 90,
+      "handName": "Flush"
+    }
+  },
+  {
+    "id": "mod_021",
+    "name": "Arcana Sigil 021",
+    "description": "Retrigger Face Cards tuned for combo chain #21.",
+    "rarity": "Rare",
+    "trigger": "on_discard",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_022",
+    "name": "Arcana Sigil 022",
+    "description": "Mult Per Repeated Suit tuned for combo chain #22.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_023",
+    "name": "Arcana Sigil 023",
+    "description": "Chips Per Unused Discard tuned for combo chain #23.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_024",
+    "name": "Arcana Sigil 024",
+    "description": "Duplicate Score Effects tuned for combo chain #24.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_025",
+    "name": "Arcana Sigil 025",
+    "description": "Probability Shift tuned for combo chain #25.",
+    "rarity": "Legendary",
+    "trigger": "on_score",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_026",
+    "name": "Arcana Sigil 026",
+    "description": "Economy Bonus tuned for combo chain #26.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_027",
+    "name": "Arcana Sigil 027",
+    "description": "Flat Chip Bonus tuned for combo chain #27.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_028",
+    "name": "Arcana Sigil 028",
+    "description": "Flat Mult Bonus tuned for combo chain #28.",
+    "rarity": "Rare",
+    "trigger": "on_round_start",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_029",
+    "name": "Arcana Sigil 029",
+    "description": "Streak Mult Bonus tuned for combo chain #29.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_030",
+    "name": "Arcana Sigil 030",
+    "description": "Hand Type Bonus tuned for combo chain #30.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 50,
+      "handName": "Four of a Kind"
+    }
+  },
+  {
+    "id": "mod_031",
+    "name": "Arcana Sigil 031",
+    "description": "Retrigger Face Cards tuned for combo chain #31.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_032",
+    "name": "Arcana Sigil 032",
+    "description": "Mult Per Repeated Suit tuned for combo chain #32.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_033",
+    "name": "Arcana Sigil 033",
+    "description": "Chips Per Unused Discard tuned for combo chain #33.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_034",
+    "name": "Arcana Sigil 034",
+    "description": "Duplicate Score Effects tuned for combo chain #34.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_035",
+    "name": "Arcana Sigil 035",
+    "description": "Probability Shift tuned for combo chain #35.",
+    "rarity": "Rare",
+    "trigger": "on_round_end",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_036",
+    "name": "Arcana Sigil 036",
+    "description": "Economy Bonus tuned for combo chain #36.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_037",
+    "name": "Arcana Sigil 037",
+    "description": "Flat Chip Bonus tuned for combo chain #37.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_038",
+    "name": "Arcana Sigil 038",
+    "description": "Flat Mult Bonus tuned for combo chain #38.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_039",
+    "name": "Arcana Sigil 039",
+    "description": "Streak Mult Bonus tuned for combo chain #39.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_040",
+    "name": "Arcana Sigil 040",
+    "description": "Hand Type Bonus tuned for combo chain #40.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 130,
+      "handName": "Pair"
+    }
+  },
+  {
+    "id": "mod_041",
+    "name": "Arcana Sigil 041",
+    "description": "Retrigger Face Cards tuned for combo chain #41.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_042",
+    "name": "Arcana Sigil 042",
+    "description": "Mult Per Repeated Suit tuned for combo chain #42.",
+    "rarity": "Rare",
+    "trigger": "on_shop_enter",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_043",
+    "name": "Arcana Sigil 043",
+    "description": "Chips Per Unused Discard tuned for combo chain #43.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_044",
+    "name": "Arcana Sigil 044",
+    "description": "Duplicate Score Effects tuned for combo chain #44.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_045",
+    "name": "Arcana Sigil 045",
+    "description": "Probability Shift tuned for combo chain #45.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_046",
+    "name": "Arcana Sigil 046",
+    "description": "Economy Bonus tuned for combo chain #46.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_047",
+    "name": "Arcana Sigil 047",
+    "description": "Flat Chip Bonus tuned for combo chain #47.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_048",
+    "name": "Arcana Sigil 048",
+    "description": "Flat Mult Bonus tuned for combo chain #48.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_049",
+    "name": "Arcana Sigil 049",
+    "description": "Streak Mult Bonus tuned for combo chain #49.",
+    "rarity": "Rare",
+    "trigger": "on_score",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_050",
+    "name": "Arcana Sigil 050",
+    "description": "Hand Type Bonus tuned for combo chain #50.",
+    "rarity": "Legendary",
+    "trigger": "on_draw",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 90,
+      "handName": "Three of a Kind"
+    }
+  },
+  {
+    "id": "mod_051",
+    "name": "Arcana Sigil 051",
+    "description": "Retrigger Face Cards tuned for combo chain #51.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_052",
+    "name": "Arcana Sigil 052",
+    "description": "Mult Per Repeated Suit tuned for combo chain #52.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_053",
+    "name": "Arcana Sigil 053",
+    "description": "Chips Per Unused Discard tuned for combo chain #53.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_054",
+    "name": "Arcana Sigil 054",
+    "description": "Duplicate Score Effects tuned for combo chain #54.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_055",
+    "name": "Arcana Sigil 055",
+    "description": "Probability Shift tuned for combo chain #55.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_056",
+    "name": "Arcana Sigil 056",
+    "description": "Economy Bonus tuned for combo chain #56.",
+    "rarity": "Rare",
+    "trigger": "on_draw",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_057",
+    "name": "Arcana Sigil 057",
+    "description": "Flat Chip Bonus tuned for combo chain #57.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_058",
+    "name": "Arcana Sigil 058",
+    "description": "Flat Mult Bonus tuned for combo chain #58.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_059",
+    "name": "Arcana Sigil 059",
+    "description": "Streak Mult Bonus tuned for combo chain #59.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_060",
+    "name": "Arcana Sigil 060",
+    "description": "Hand Type Bonus tuned for combo chain #60.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 50,
+      "handName": "Flush"
+    }
+  },
+  {
+    "id": "mod_061",
+    "name": "Arcana Sigil 061",
+    "description": "Retrigger Face Cards tuned for combo chain #61.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_062",
+    "name": "Arcana Sigil 062",
+    "description": "Mult Per Repeated Suit tuned for combo chain #62.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_063",
+    "name": "Arcana Sigil 063",
+    "description": "Chips Per Unused Discard tuned for combo chain #63.",
+    "rarity": "Rare",
+    "trigger": "on_discard",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_064",
+    "name": "Arcana Sigil 064",
+    "description": "Duplicate Score Effects tuned for combo chain #64.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_065",
+    "name": "Arcana Sigil 065",
+    "description": "Probability Shift tuned for combo chain #65.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_066",
+    "name": "Arcana Sigil 066",
+    "description": "Economy Bonus tuned for combo chain #66.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_067",
+    "name": "Arcana Sigil 067",
+    "description": "Flat Chip Bonus tuned for combo chain #67.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_068",
+    "name": "Arcana Sigil 068",
+    "description": "Flat Mult Bonus tuned for combo chain #68.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_069",
+    "name": "Arcana Sigil 069",
+    "description": "Streak Mult Bonus tuned for combo chain #69.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_070",
+    "name": "Arcana Sigil 070",
+    "description": "Hand Type Bonus tuned for combo chain #70.",
+    "rarity": "Rare",
+    "trigger": "on_round_start",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 130,
+      "handName": "Four of a Kind"
+    }
+  },
+  {
+    "id": "mod_071",
+    "name": "Arcana Sigil 071",
+    "description": "Retrigger Face Cards tuned for combo chain #71.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_072",
+    "name": "Arcana Sigil 072",
+    "description": "Mult Per Repeated Suit tuned for combo chain #72.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_073",
+    "name": "Arcana Sigil 073",
+    "description": "Chips Per Unused Discard tuned for combo chain #73.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_074",
+    "name": "Arcana Sigil 074",
+    "description": "Duplicate Score Effects tuned for combo chain #74.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_075",
+    "name": "Arcana Sigil 075",
+    "description": "Probability Shift tuned for combo chain #75.",
+    "rarity": "Legendary",
+    "trigger": "on_discard",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_076",
+    "name": "Arcana Sigil 076",
+    "description": "Economy Bonus tuned for combo chain #76.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_077",
+    "name": "Arcana Sigil 077",
+    "description": "Flat Chip Bonus tuned for combo chain #77.",
+    "rarity": "Rare",
+    "trigger": "on_round_end",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_078",
+    "name": "Arcana Sigil 078",
+    "description": "Flat Mult Bonus tuned for combo chain #78.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_079",
+    "name": "Arcana Sigil 079",
+    "description": "Streak Mult Bonus tuned for combo chain #79.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_080",
+    "name": "Arcana Sigil 080",
+    "description": "Hand Type Bonus tuned for combo chain #80.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 90,
+      "handName": "Pair"
+    }
+  },
+  {
+    "id": "mod_081",
+    "name": "Arcana Sigil 081",
+    "description": "Retrigger Face Cards tuned for combo chain #81.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_082",
+    "name": "Arcana Sigil 082",
+    "description": "Mult Per Repeated Suit tuned for combo chain #82.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_083",
+    "name": "Arcana Sigil 083",
+    "description": "Chips Per Unused Discard tuned for combo chain #83.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_084",
+    "name": "Arcana Sigil 084",
+    "description": "Duplicate Score Effects tuned for combo chain #84.",
+    "rarity": "Rare",
+    "trigger": "on_shop_enter",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_085",
+    "name": "Arcana Sigil 085",
+    "description": "Probability Shift tuned for combo chain #85.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_086",
+    "name": "Arcana Sigil 086",
+    "description": "Economy Bonus tuned for combo chain #86.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_087",
+    "name": "Arcana Sigil 087",
+    "description": "Flat Chip Bonus tuned for combo chain #87.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_088",
+    "name": "Arcana Sigil 088",
+    "description": "Flat Mult Bonus tuned for combo chain #88.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_089",
+    "name": "Arcana Sigil 089",
+    "description": "Streak Mult Bonus tuned for combo chain #89.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_090",
+    "name": "Arcana Sigil 090",
+    "description": "Hand Type Bonus tuned for combo chain #90.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 50,
+      "handName": "Three of a Kind"
+    }
+  },
+  {
+    "id": "mod_091",
+    "name": "Arcana Sigil 091",
+    "description": "Retrigger Face Cards tuned for combo chain #91.",
+    "rarity": "Rare",
+    "trigger": "on_score",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_092",
+    "name": "Arcana Sigil 092",
+    "description": "Mult Per Repeated Suit tuned for combo chain #92.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_093",
+    "name": "Arcana Sigil 093",
+    "description": "Chips Per Unused Discard tuned for combo chain #93.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_094",
+    "name": "Arcana Sigil 094",
+    "description": "Duplicate Score Effects tuned for combo chain #94.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_095",
+    "name": "Arcana Sigil 095",
+    "description": "Probability Shift tuned for combo chain #95.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_096",
+    "name": "Arcana Sigil 096",
+    "description": "Economy Bonus tuned for combo chain #96.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_097",
+    "name": "Arcana Sigil 097",
+    "description": "Flat Chip Bonus tuned for combo chain #97.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_098",
+    "name": "Arcana Sigil 098",
+    "description": "Flat Mult Bonus tuned for combo chain #98.",
+    "rarity": "Rare",
+    "trigger": "on_draw",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_099",
+    "name": "Arcana Sigil 099",
+    "description": "Streak Mult Bonus tuned for combo chain #99.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_100",
+    "name": "Arcana Sigil 100",
+    "description": "Hand Type Bonus tuned for combo chain #100.",
+    "rarity": "Legendary",
+    "trigger": "on_round_start",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 130,
+      "handName": "Flush"
+    }
+  },
+  {
+    "id": "mod_101",
+    "name": "Arcana Sigil 101",
+    "description": "Retrigger Face Cards tuned for combo chain #101.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_102",
+    "name": "Arcana Sigil 102",
+    "description": "Mult Per Repeated Suit tuned for combo chain #102.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.46
+    }
+  },
+  {
+    "id": "mod_103",
+    "name": "Arcana Sigil 103",
+    "description": "Chips Per Unused Discard tuned for combo chain #103.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_104",
+    "name": "Arcana Sigil 104",
+    "description": "Duplicate Score Effects tuned for combo chain #104.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.12
+    }
+  },
+  {
+    "id": "mod_105",
+    "name": "Arcana Sigil 105",
+    "description": "Probability Shift tuned for combo chain #105.",
+    "rarity": "Rare",
+    "trigger": "on_discard",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 3
+    }
+  },
+  {
+    "id": "mod_106",
+    "name": "Arcana Sigil 106",
+    "description": "Economy Bonus tuned for combo chain #106.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 4
+    }
+  },
+  {
+    "id": "mod_107",
+    "name": "Arcana Sigil 107",
+    "description": "Flat Chip Bonus tuned for combo chain #107.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_108",
+    "name": "Arcana Sigil 108",
+    "description": "Flat Mult Bonus tuned for combo chain #108.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.5
+    }
+  },
+  {
+    "id": "mod_109",
+    "name": "Arcana Sigil 109",
+    "description": "Streak Mult Bonus tuned for combo chain #109.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.28
+    }
+  },
+  {
+    "id": "mod_110",
+    "name": "Arcana Sigil 110",
+    "description": "Hand Type Bonus tuned for combo chain #110.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 90,
+      "handName": "Four of a Kind"
+    }
+  },
+  {
+    "id": "mod_111",
+    "name": "Arcana Sigil 111",
+    "description": "Retrigger Face Cards tuned for combo chain #111.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "retrigger_face_cards",
+    "values": {
+      "amount": 16
+    }
+  },
+  {
+    "id": "mod_112",
+    "name": "Arcana Sigil 112",
+    "description": "Mult Per Repeated Suit tuned for combo chain #112.",
+    "rarity": "Rare",
+    "trigger": "on_round_start",
+    "effectType": "mult_per_repeated_suit",
+    "values": {
+      "amount": 0.3
+    }
+  },
+  {
+    "id": "mod_113",
+    "name": "Arcana Sigil 113",
+    "description": "Chips Per Unused Discard tuned for combo chain #113.",
+    "rarity": "Common",
+    "trigger": "on_round_end",
+    "effectType": "chips_per_unused_discard",
+    "values": {
+      "amount": 30
+    }
+  },
+  {
+    "id": "mod_114",
+    "name": "Arcana Sigil 114",
+    "description": "Duplicate Score Effects tuned for combo chain #114.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "duplicate_score_effects",
+    "values": {
+      "amount": 0.18
+    }
+  },
+  {
+    "id": "mod_115",
+    "name": "Arcana Sigil 115",
+    "description": "Probability Shift tuned for combo chain #115.",
+    "rarity": "Common",
+    "trigger": "on_score",
+    "effectType": "probability_shift",
+    "values": {
+      "amount": 5
+    }
+  },
+  {
+    "id": "mod_116",
+    "name": "Arcana Sigil 116",
+    "description": "Economy Bonus tuned for combo chain #116.",
+    "rarity": "Common",
+    "trigger": "on_draw",
+    "effectType": "economy_bonus",
+    "values": {
+      "amount": 2
+    }
+  },
+  {
+    "id": "mod_117",
+    "name": "Arcana Sigil 117",
+    "description": "Flat Chip Bonus tuned for combo chain #117.",
+    "rarity": "Uncommon",
+    "trigger": "on_discard",
+    "effectType": "flat_chip_bonus",
+    "values": {
+      "amount": 43
+    }
+  },
+  {
+    "id": "mod_118",
+    "name": "Arcana Sigil 118",
+    "description": "Flat Mult Bonus tuned for combo chain #118.",
+    "rarity": "Common",
+    "trigger": "on_round_start",
+    "effectType": "flat_mult_bonus",
+    "values": {
+      "amount": 0.66
+    }
+  },
+  {
+    "id": "mod_119",
+    "name": "Arcana Sigil 119",
+    "description": "Streak Mult Bonus tuned for combo chain #119.",
+    "rarity": "Rare",
+    "trigger": "on_round_end",
+    "effectType": "streak_mult_bonus",
+    "values": {
+      "amount": 0.44
+    }
+  },
+  {
+    "id": "mod_120",
+    "name": "Arcana Sigil 120",
+    "description": "Hand Type Bonus tuned for combo chain #120.",
+    "rarity": "Uncommon",
+    "trigger": "on_shop_enter",
+    "effectType": "hand_type_bonus",
+    "values": {
+      "amount": 50,
+      "handName": "Pair"
+    }
+  }
+]
