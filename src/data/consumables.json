@@ -1,0 +1,34 @@
+[
+  {
+    "id": "consumable_planet_alpha",
+    "name": "Planet Alpha",
+    "description": "Gain +1 hand this blind.",
+    "cost": 5,
+    "effect": "gain_hands",
+    "value": 1
+  },
+  {
+    "id": "consumable_mirror_dust",
+    "name": "Mirror Dust",
+    "description": "Gain +1 discard this blind.",
+    "cost": 4,
+    "effect": "gain_discards",
+    "value": 1
+  },
+  {
+    "id": "consumable_gold_ticket",
+    "name": "Gold Ticket",
+    "description": "Gain $8 immediately.",
+    "cost": 6,
+    "effect": "gain_currency",
+    "value": 8
+  },
+  {
+    "id": "consumable_reroll_voucher",
+    "name": "Reroll Voucher",
+    "description": "Free reroll in current shop.",
+    "cost": 3,
+    "effect": "free_reroll",
+    "value": 1
+  }
+]
